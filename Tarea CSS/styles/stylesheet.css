@@ -1,0 +1,102 @@
+body {
+  background-color: lightgreen;
+}
+
+h2 {
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-family: cursive;
+  font-size: 50px;
+}
+
+/*Aquí interactuamos con la clase "art1 que se encuentra en un Article, y la modificamos" */
+.art1 {
+  margin: 4px;
+  font-size: 90%;
+  background-color: white;
+  text-align: center;
+  border: 10px outset;
+}
+
+/*Aquí modificamos el contenido de la etiqueta Footer*/
+footer {
+  text-align: center;
+  padding: 5px;
+  background-color: white;
+  color: red;
+  border: 5px dashed;
+}
+
+/*Aquí hacemos referencia a la etiqueta p dentro de la etiqueta Footer*/
+footer>p {
+  font-size: 50px;
+}
+
+/*Separamos texto con la etiqueta Aside y lo modificamos con CSS*/
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+  font-size: 25px;
+}
+
+/*Modificamos la clase a que se encuentra dentro de un div*/
+.a {
+  display: contents;
+  border: 1px solid red;
+  background-color: lightgrey;
+  padding: 10px;
+  width: 200px;
+}
+
+.b {
+  border: 1px solid blue;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.pruebagrande {
+  font-size: 50px;
+}
+
+.rojonaranja {
+  color: red;
+  background-color: grey;
+}
+
+#azul {
+  color: blue;
+  font-size: 30px;
+  font-style: oblique;
+  display: inline-block;
+}
+
+.titul {
+  font-style: italic;
+  font-family: "Lucida Console";
+}
+
+.block{
+  display: inline;
+}
+
+.enc{
+  display: inline;
+}
+
+.middlet{
+  display: inline;
+}
+
+.tex{
+  display: block;
+}
+
+.textoo{
+  font-size: 50px;
+  font-style: italic;
+}
